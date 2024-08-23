@@ -105,3 +105,72 @@ a:hover{
 .hamburger-icon.open span:first-child{
     transform: rotate(45deg) translate(10px, 5px);
 }
+.hamburger-icon.open span:nth-child(2){
+    opacity: 0;
+}
+.hamburger-icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+.hamburger-icon span:first-child{
+    transform: none;
+}
+.hamburger-icon span:first-child{
+    opacity: 1;
+}
+.hamburger-icon span:first-child{
+    transform: none;
+}
+/* Sections */
+section{
+    padding-top: 4vh;
+    height: 100vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-container{
+    display: flex;
+}
+/*Profile Section */
+#profile{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    height: 80vh;
+}
+.section__pic-container{
+   display: flex;  
+   height: 400px;
+   width: 400px;
+   margin: auto 0; 
+}
+.section__text{
+    align-self: center;
+    text-align: center;
+}
+.section__text p {
+    font-weight: 600;
+  }
+.section__text_p1{
+    text-align: center;
+}
+.section__text_p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap:1rem;
+}
+/* Icons */ 
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
